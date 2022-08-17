@@ -1,0 +1,50 @@
+%---------- Inleiding ---------------------------------------------------------
+
+\section{Introduction} % The \section*{} command stops section numbering
+\label{sec:introductie}
+
+Micro frontends have been on the rise in recent years and I was intrigued by the idea of structuring one application into many smaller applications which all work together. Since Showpad is a scale-up organisation it is only right to try and prove the scaling potential of the micro frontend architecture and its many other benefits for the developers themselves. Nobody likes long build times when they are trying out their code so here is also a lot of promise in improving these non productive wait times significantly.
+
+%---------- Stand van zaken ---------------------------------------------------
+
+\section{State-of-the-art}
+\label{sec:state-of-the-art}
+
+\subsection{What are Micro Frontends?}
+Micro-Frontend applications are an architecture inspired by the microservices architecture.
+In this kind of architecture monolithic codebases are broken down into many smaller “applications” which all work together as if it is one big application. 
+
+\subsection{Why use Micro Frontends?}
+The main advantages of Micro Frontends are its scalability, the possibility to adopt different technologies and its development efficiency (faster build/runtimes).
+
+\subsection{What is a monolithic architecture?}
+In a monolithic architecture the application is structured unifiedly so that the codebase is all in one place.
+
+\subsection{Why use a monolithic structure?}
+The main advantage of using a monolithic structure is its simplicity in many different aspects. All the code of the application is in one place so everything is straight-forward and there is no additional architectural knowledge required.
+
+\subsection{What is CI/CD?}
+CI/CD or Continuous Integration / Continuous Delivery is a method where applications are being delivered to the customer by using a form of automation at different stages of development.
+The goal of Continuous integration is that the application is always in a working state by checking if the code works before it gets pushed into production using automated tests.
+The goal of Continuous delivery is to make sure that the new changes are merged in correctly with the already  existing code in production and still is in a working state.
+
+
+%---------- Methodologie ------------------------------------------------------
+\section{Methodologies}
+\label{sec:methodologie}
+
+The first step of the process was researching and understanding both architectures.
+Following steps of this proof-of-concept and comparative study is to work and test how the monolithic architecture behaves also to get familiar with the codebase. The next step is choosing and isolating one part of the whole application and transforming it into a micro frontend. After this is done the real world comparison can start. Checking the performance of both architecture and also if the hoped for potential is fulfilled.
+
+%---------- Verwachte resultaten ----------------------------------------------
+\section{Expected results}
+\label{sec:verwachte_resultaten}
+
+The result of this thesis should be a proof-of-concept within Showpad to test if the micro frontend architecture is beneficial to the workflow of the developers and the CI/CD.
+Expectations are that the developers could work more efficiently through the benefits of the architecture's build time speeds, full code ownership for every team and own deployments.
+
+%---------- Verwachte conclusies ----------------------------------------------
+\section{Expected conclusions}
+\label{sec:verwachte_conclusies}
+
+Both architectures will both have its pros and cons but in the end the micro frontend architecture looks more applicable to Showpad because of the architectures potential of scalability. Since Showpad is a continuously growing organisation where new teams are created regularly.

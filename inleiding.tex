@@ -1,0 +1,63 @@
+%%=============================================================================
+%% Inleiding
+%%=============================================================================
+
+\chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}
+\label{ch:inleiding}
+
+Software products with codebases of multiple millions of lines of code, built over more than a decade by a few hundred different software engineers, typically come with challenges of scale that far exceed the theoretical context in which software methodologies and methods are defined. Handling legacy technology stacks and architectures while further extending and evolving the product functionality comes with specific challenges. These challenges impact the productivity of product teams, individual engineers, and the business.
+
+Instead of exploring the opportunity of a software architecture pattern as micro-frontends in isolation, it adds more value to do it in the context of a real-world product development environment. I was fortunate to conduct my internship at Showpad, which offers the perfect setting to conduct my research.
+\subsection{The company: Showpad}
+Showpad is one of the successful scale-ups that emerged from the Ghent tech start-up scene, founded in 2011 as a spin-off of the web agency In The Pocket. Showpad initially developed an iPad application to enable salespeople to get their job done on the road and at sales fairs by providing them with compelling online digital sales content. Due to its success,  an online back office application extended the mobile application. As sales teams grew and started to work more and more hybrid, combining field sales with selling from the office, a browser-based web application became the dominant interface for driving the company's business success.
+
+\gls{SalesEnablement} is the business domain in which Showpad is active and where market analysts Gartner and Forrester perceive it as one of the global leaders in this space. Showpad works according to a \gls{SAAS} (Software As A Service) business model. Customers subscribe to the service paying an annual fee per user resulting in Annual Recurring Revenue growing 20\% to 30\% year over year. Showpad generates 50\% of its revenue in Europe and 50\% in the US.
+
+Showpad celebrated its 11 anniversary in May 2022. It grew from a three-person start-up in the living room of one of the co-founders to a sizable global scale-up of 600 people with multiple offices across the globe. The product engineering team evolved from 1 engineer to a Research and Development department of more than 220 people, including 130 software engineers active in 18 scrum teams. 
+\section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
+\label{sec:probleemstelling}
+Although applied to the situation at Showpad, the challenges that set the context for this bachelor thesis are common to many fast-growing software companies.
+During my internship at Showpad as a front-end engineer and member of the CRM team, I experienced several scaling challenges firsthand. Contributing to improved productivity of front-end engineers in Showpad by exploring how micro-frontend architecture can help in an enhanced ``time to value'' was a valuable path.
+\subsection{Emerging Architecture}
+In the early days of the venture, given the limited amount of people working on the code base, the limited functionality of the product, and the limited user base, choosing a monolith architecture was the obvious choice to make. At that time, this architectural pattern provided nothing but benefits. It led to a performant software system while keeping the complexity and the number of system components under control. In the meantime, the software system has grown to a codebase of 12 million lines of code, spread over 400+ GitLab repositories. A handful of monolith components still cover the core functionality of the \gls{SAAS} product. And the drawbacks of this once successful architecture start to hurt.
+\subsection{Front-end CI/CD pipeline}
+One of the monolith architectural components at Showpad is the web front-end stack. It originated from a deliberate choice to manage the front-end stack as a mono repo. With all teams contributing to the product's web user interface, all units must go through the same \gls{CI/CD} pipeline when bringing changes to production. Over the years, the performance of this \gls{CI/CD} pipeline has become a significant bottleneck slowing down teams substantially. 
+Until a year ago, the success rate of bringing front-end updates to production was, on average, once every two weeks. A focussed process improvement project resulted in a structural improvement in daily deploys to production. 
+Architectural changes are required to get to a higher deployment frequency. The hypothesis to be tested is whether the micro-frontends architectural pattern is a way forward in decomposing the monolith architecture.
+\subsection{Growing Organisation}
+The product engineering organization also snowballed to support the growing scope of the business and the product. The number of people building and maintaining the product doubled over the past three years. Impacting the complexity of the organization and the way of working; aligning on why what, and how to do things across 18 globally distributed \gls{Scrum} teams is a different ballgame than doing it with a hand full of engineers around a kitchen table in the startup's early days. 
+\subsection{Impact of Scale}
+There are multiple angles when evaluating the impact of scale. When narrowing down the problem statement for this thesis, we first define the 3 dominant perspectives.
+\subsubsection{The Business}
+From a business perspective, R\&D is essential to the investments required to run a successful business. In \gls{SAAS} businesses, this is typically around 23\% of the annual revenue. Revenue growth is a lagging indicator of the return on that investment in R\&D due to the natural lag between the moment of investment and the moment the newly built functionality is in customers' hands, generating value. So the most significant focus is on ``time to value''. In Showpad, they frame it as the time needed ``From idea till smile of the customer''. In traditional lean metrics, this is lead time. A shorter lead time means a higher impact on business.
+
+As the company grows in size and complexity, paying attention to the productivity impact observed through ``time to value'' is a key attention point for the leadership of the R\&D organization. Showpad organizes the product roadmap in \glspl{Epic} as the top level unit of work with a targeted lead time of 2 months. \Glspl{Epic} are further decomposed in a set of User Stories which are tipically handled within a \gls{Sprint} cycle. The typical \gls{Sprint} length of 2 weeks provides a team with four iterations to deliver on an \gls{Epic}.
+\subsubsection{Scrum team}
+Showpad organizes its product development life cycle based on the \gls{Scrum} methodology. Currently, there are 18 \gls{Scrum} teams with over 130 engineers actively working on the Showpad \gls{SAAS} product. 
+Inter-team dependencies, alignment of scope, the complexity of the software stack, the architectural reality, and the slowing down effect of a natural level of technical debt resulting from 11 years of high pace product development are critical challenges to productivity in a venture of this scale.
+\subsubsection{Individual developer}
+Software engineers want to spend most of their time building software and have it in the hands of users. Dependencies on other teams, processes, and architectural constraints slow the developer's productivity and reduce the developer's happiness.
+\section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}
+\label{sec:onderzoeksvraag}
+What is the influence of applying the Micro Frontend architectural pattern on the productivity of frontend engineers working in a mono repo environment?
+
+\section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}
+\label{sec:onderzoeksdoelstelling}
+As a proof of concept, we will isolate a chunk of functionality from the frontend mono repo into a micro frontend application. This way, we want to prove the positive impact of this architectural pattern on the productivity of the frontend engineers and their teams.
+We will measure the lead time of frontend changes. First, while still part of the mono repo, eventually, after isolating the functionality in a micro-frontend application. We expect improved lead time as an indication of increased productivity. 
+
+\section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}
+\label{sec:opzet-bachelorproef}
+The structure of the bachelor thesis is the following:
+
+In Chapter~\ref{ch:stand-van-zaken} we give an overview of the state of the art in the micro-frontends domain. In the literature study, we will zoom into key architectural patterns and software development concepts and how they influence productivity.
+
+In Chapter~\ref{ch:methodologie} we describe the applied methodology to the proof of concept and how we get to the answer of the research question and objective.
+
+In Chapter~\ref{ch:baseline} we describe the baseline state. Both from an architectural point of view, as from a process point of view. We baseline the main productivity metrics.
+
+In Chapter~\ref{ch:scopemicrofrontendapp} we set the boundaries of the micro-frontend application we extract from the monorepo and the steps it takes to isolate it out, including the challenges we faced.
+
+In Chapter~\ref{ch:results} we take a step back and look at the productivity metrics as a result of the micro-frontend implementation.
+
+In Chapter~\ref{ch:conclusie}, we will formulate our conclusion and reflections.

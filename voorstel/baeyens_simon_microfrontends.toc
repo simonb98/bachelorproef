@@ -1,0 +1,12 @@
+\babel@toc {dutch}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}State-of-the-art}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}What are Micro Frontends?}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Why use Micro Frontends?}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}What is a monolithic architecture?}{1}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Why use a monolithic structure?}{1}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}What is CI/CD?}{1}{subsection.2.5}%
+\contentsfinish 
+\contentsline {section}{\numberline {3}Methodologies}{2}{section.3}%
+\contentsline {section}{\numberline {4}Expected results}{2}{section.4}%
+\contentsline {section}{\numberline {5}Expected conclusions}{2}{section.5}%

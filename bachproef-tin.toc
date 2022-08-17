@@ -1,0 +1,89 @@
+\babel@toc {dutch}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {dutch}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{19}{chapter.1}%
+\contentsline {subsection}{\numberline {1.0.1}The company: Showpad}{19}{subsection.1.0.1}%
+\contentsline {section}{\numberline {1.1}Problem Statement}{20}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Emerging Architecture}{20}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Front-end CI/CD pipeline}{20}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Growing Organisation}{21}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Impact of Scale}{21}{subsection.1.1.4}%
+\contentsline {subsubsection}{The Business}{21}{section*.9}%
+\contentsline {subsubsection}{Scrum team}{21}{section*.10}%
+\contentsline {subsubsection}{Individual developer}{22}{section*.11}%
+\contentsline {section}{\numberline {1.2}Research question}{22}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Research objective}{22}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Structure of this bachelor thesis}{22}{section.1.4}%
+\contentsline {chapter}{\numberline {2}State of the art}{23}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Technology Stack}{23}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}TypeScript}{23}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Angular}{23}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Redux}{24}{subsection.2.1.3}%
+\contentsline {subsubsection}{Single source of truth}{24}{section*.12}%
+\contentsline {subsubsection}{State is read-only}{24}{section*.13}%
+\contentsline {subsubsection}{Changes are made with pure functions}{24}{section*.14}%
+\contentsline {subsection}{\numberline {2.1.4}RxJS}{25}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}NgRx}{25}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Design System}{25}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Repository Management}{25}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Deployment Architecture}{26}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Monolith Architecture}{26}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Microservices Architecture}{27}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Micro Frontends Architecture}{28}{subsection.2.4.3}%
+\contentsline {subsubsection}{Scalability}{28}{section*.15}%
+\contentsline {subsubsection}{Different frameworks}{28}{section*.16}%
+\contentsline {subsubsection}{Maintenance and testing}{28}{section*.17}%
+\contentsline {subsubsection}{Two approaches to scope microfrontends}{29}{section*.18}%
+\contentsline {subsection}{\numberline {2.4.4}Module Federation}{29}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}CI/CD}{30}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Continuous Integration}{30}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Continuous Delivery}{30}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Metrics}{31}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Lean Software Development}{31}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Lean Metrics and Flow}{32}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Little's Law}{32}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Cycle Time}{33}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}Throughput}{33}{subsection.2.6.5}%
+\contentsline {subsection}{\numberline {2.6.6}Work In Progress}{34}{subsection.2.6.6}%
+\contentsline {chapter}{\numberline {3}Methodology}{35}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Exploring Opportunities}{35}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Developer's Productivity}{35}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Ambitious but acchievable Goal}{35}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Knowledge building}{36}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Setting the scope of the Proof Of Concept}{36}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Isolating the microfrontend application}{36}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Continuous Integration substantially improved}{37}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Running the proof-of-concept}{37}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Baseline}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Technology Stack}{39}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Architecture}{39}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Monorepo}{39}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}CI/CD reality}{39}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Metric baseline}{40}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Build times}{40}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}CI/CD pipeline runtime}{40}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Cycle Time}{40}{subsection.4.4.3}%
+\contentsline {chapter}{\numberline {5}Scope Micro-Frontend App}{43}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Functional Scope}{43}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Steps to Extract}{43}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Challenges}{44}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Results}{45}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Metric outcome}{45}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Improvements for the developer}{45}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Improvements for CI/CD}{46}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Improvements in cycle time}{46}{subsection.6.1.3}%
+\contentsline {chapter}{\numberline {7}Conclusion}{49}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{51}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Introduction}{51}{section.A.1}%
+\contentsline {section}{\numberline {A.2}State-of-the-art}{51}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}What are Micro Frontends?}{51}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Why use Micro Frontends?}{52}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}What is a monolithic architecture?}{52}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}Why use a monolithic structure?}{52}{subsection.A.2.4}%
+\contentsline {subsection}{\numberline {A.2.5}What is CI/CD?}{52}{subsection.A.2.5}%
+\contentsline {section}{\numberline {A.3}Methodologies}{52}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Expected results}{52}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Expected conclusions}{53}{section.A.5}%
+\contentsline {chapter}{Bibliography}{55}{appendix*.19}%
+\contentsfinish 

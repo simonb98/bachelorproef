@@ -1,0 +1,364 @@
+\glsdefs@newdocentry{Sales Enablement}%
+{%
+name={Sales Enablement},%
+sort={Sales Enablement},%
+type={main},%
+first={Sales Enablement},%
+firstplural={Sales Enablements},%
+text={Sales Enablement},%
+plural={Sales Enablements},%
+description={Is a business domain that ... },%
+descriptionplural={Is a business domain that ... },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{CI/CD}%
+{%
+name={CI/CD},%
+sort={CI/CD},%
+type={main},%
+first={CI/CD},%
+firstplural={CI/CDs},%
+text={CI/CD},%
+plural={CI/CDs},%
+description={Continuous Integration/Continuous Delivery is a process framework Mathematics is what mathematicians do},%
+descriptionplural={Continuous Integration/Continuous Delivery is a process framework Mathematics is what mathematicians do},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Scrum}%
+{%
+name={Scrum},%
+sort={Scrum},%
+type={main},%
+first={Scrum},%
+firstplural={Scrums},%
+text={Scrum},%
+plural={Scrums},%
+description={Scrum is one of the most popular agile methodologies, based on a timeboxed iteration (sprint), with a clearly defined goal and scope. It comes with a limited set of roles and ceremonies to stay as light weight as possible.},%
+descriptionplural={Scrum is one of the most popular agile methodologies, based on a timeboxed iteration (sprint), with a clearly defined goal and scope. It comes with a limited set of roles and ceremonies to stay as light weight as possible.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Epic}%
+{%
+name={Epic},%
+sort={Epic},%
+type={main},%
+first={Epic},%
+firstplural={Epics},%
+text={Epic},%
+plural={Epics},%
+description={At Showpad, an Epic is the unit of Customer Value delivery. The combination of all Epics forms the Roadmap. To enable a value delivery focus, we limit the scope of an Epic to typically fit in one or a maximum of two release cycles. Epics are large bodies of work that can be broken down into a number of User Stories. In an Epic, we focus on tackling 1 and only 1, clearly defined problem specific to 1 principal Actor’s (user persona) User Experience. Multiple teams can work on the same Epic. The Epic is to a Release, what a User Story is to a Sprint. },%
+descriptionplural={At Showpad, an Epic is the unit of Customer Value delivery. The combination of all Epics forms the Roadmap. To enable a value delivery focus, we limit the scope of an Epic to typically fit in one or a maximum of two release cycles. Epics are large bodies of work that can be broken down into a number of User Stories. In an Epic, we focus on tackling 1 and only 1, clearly defined problem specific to 1 principal Actor’s (user persona) User Experience. Multiple teams can work on the same Epic. The Epic is to a Release, what a User Story is to a Sprint. },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{User Story}%
+{%
+name={User Story},%
+sort={User Story},%
+type={main},%
+first={User Story},%
+firstplural={User Storys},%
+text={User Story},%
+plural={User Storys},%
+description={At Showpad, User Stories are short requirements or requests written from the perspective of an end-user. A User Story fits into the timebox of a Sprint and is the lowest level of granularity for planning and delivering work. A User Story has a 1-on-1 relationship with a team that will implement it.},%
+descriptionplural={At Showpad, User Stories are short requirements or requests written from the perspective of an end-user. A User Story fits into the timebox of a Sprint and is the lowest level of granularity for planning and delivering work. A User Story has a 1-on-1 relationship with a team that will implement it.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Sprint}%
+{%
+name={Sprint},%
+sort={Sprint},%
+type={main},%
+first={Sprint},%
+firstplural={Sprints},%
+text={Sprint},%
+plural={Sprints},%
+description={A sprint is a short, time-boxed period when a scrum team works to complete a set amount of work. At Showpad, a sprint is typically 2 to 3 weeks long, it is up to the Scrum team to determine the length of Sprints. once chosen, it puts the team in a fixed cadence of delivery.},%
+descriptionplural={A sprint is a short, time-boxed period when a scrum team works to complete a set amount of work. At Showpad, a sprint is typically 2 to 3 weeks long, it is up to the Scrum team to determine the length of Sprints. once chosen, it puts the team in a fixed cadence of delivery.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Monorepo}%
+{%
+name={Monorepo},%
+sort={Monorepo},%
+type={main},%
+first={Monorepo},%
+firstplural={Monorepos},%
+text={Monorepo},%
+plural={Monorepos},%
+description={A Monorepo is a software development strategy where code for many projects is stored in the same repository.},%
+descriptionplural={A Monorepo is a software development strategy where code for many projects is stored in the same repository.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Cycle Time}%
+{%
+name={Cycle Time},%
+sort={Cycle Time},%
+type={main},%
+first={Cycle Time},%
+firstplural={Cycle Times},%
+text={Cycle Time},%
+plural={Cycle Times},%
+description={},%
+descriptionplural={},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{CI}%
+{%
+name={CI},%
+sort={CI},%
+type={main},%
+first={Continuous Integration\glsspace (CI)},%
+firstplural={Continuous Integration\acrpluralsuffix \glsspace (CI\acrpluralsuffix )},%
+text={CI},%
+plural={CI\acrpluralsuffix },%
+description={Continuous Integration},%
+descriptionplural={Continuous Integration\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Continuous Integration},%
+longplural={Continuous Integrations},%
+short={CI},%
+shortplural={CIs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{CD}%
+{%
+name={CD},%
+sort={CD},%
+type={main},%
+first={Continuous Delivery\glsspace (CD)},%
+firstplural={Continuous Delivery\acrpluralsuffix \glsspace (CD\acrpluralsuffix )},%
+text={CD},%
+plural={CD\acrpluralsuffix },%
+description={Continuous Delivery},%
+descriptionplural={Continuous Delivery\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Continuous Delivery},%
+longplural={Continuous Deliverys},%
+short={CD},%
+shortplural={CDs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{SAAS}%
+{%
+name={SAAS},%
+sort={SAAS},%
+type={main},%
+first={Software as a Service\glsspace (SAAS)},%
+firstplural={Software as a Service\acrpluralsuffix \glsspace (SAAS\acrpluralsuffix )},%
+text={SAAS},%
+plural={SAAS\acrpluralsuffix },%
+description={Software as a Service},%
+descriptionplural={Software as a Service\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Software as a Service},%
+longplural={Software as a Services},%
+short={SAAS},%
+shortplural={SAASs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ARR}%
+{%
+name={ARR},%
+sort={ARR},%
+type={main},%
+first={Annual Recurring Revenue\glsspace (ARR)},%
+firstplural={Annual Recurring Revenue\acrpluralsuffix \glsspace (ARR\acrpluralsuffix )},%
+text={ARR},%
+plural={ARR\acrpluralsuffix },%
+description={Annual Recurring Revenue},%
+descriptionplural={Annual Recurring Revenue\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Annual Recurring Revenue},%
+longplural={Annual Recurring Revenues},%
+short={ARR},%
+shortplural={ARRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{CRM}%
+{%
+name={CRM},%
+sort={CRM},%
+type={main},%
+first={Customer Relationship Management\glsspace (CRM)},%
+firstplural={Customer Relationship Management\acrpluralsuffix \glsspace (CRM\acrpluralsuffix )},%
+text={CRM},%
+plural={CRM\acrpluralsuffix },%
+description={Customer Relationship Management},%
+descriptionplural={Customer Relationship Management\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Customer Relationship Management},%
+longplural={Customer Relationship Managements},%
+short={CRM},%
+shortplural={CRMs},%
+counter={page},%
+parent={},%
+%
+}%
+

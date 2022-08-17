@@ -1,0 +1,36 @@
+%%=============================================================================
+%% Conclusie
+%%=============================================================================
+
+\chapter{Conclusion}
+\label{ch:conclusie}
+
+% TODO: Trek een duidelijke conclusie, in de vorm van een antwoord op de
+% onderzoeksvra(a)g(en). Wat was jouw bijdrage aan het onderzoeksdomein en
+% hoe biedt dit meerwaarde aan het vakgebied/doelgroep? 
+% Reflecteer kritisch over het resultaat. In Engelse teksten wordt deze sectie
+% ``Discussion'' genoemd. Had je deze uitkomst verwacht? Zijn er zaken die nog
+% niet duidelijk zijn?
+% Heeft het onderzoek geleid tot nieuwe vragen die uitnodigen tot verder 
+%onderzoek?
+Reducing the lead time "from idea till smile of the customer" is a frequently stated quote at Showpad, indicating the importance of getting product innovation in the hands of customers and users as soon as possible.
+
+Core to the value proposition from a micro frontend architecture is that it will substantially shorten the cycle time of every team by eliminating the need for teams to depend and wait on each other to deploy. Each team takes full code ownership and can choose to deploy whenever they want. This will result in users getting new products and features faster. Besides this considerable upside for customers, the developer experience improves drastically through the reduced build and CI/CD pipeline runtimes.
+
+In this bachelor thesis, we evaluated the potential of how the micro frontend architecture pattern can contribute to the productivity of developers and teams and how it contributes to the reduction in cycle time. 
+
+The results of the proof of concepts show a positive impact. The isolated functionality's build time was four times faster than the baseline measurements. The cycle time of the adapted CI/CD pipeline for the micro frontend application was reduced by 27\%.
+
+These results for sure look promising. It has the potential for the productivity of individual developers and teams as to the autonomy of teams in a multi-team development organization like Showpad. 
+
+But it will not come for free. 
+
+It is known that in microservice and micro frontend architectures, the system's complexity increases due to the growing number of components. 
+
+Secondly, decomposing a monolith architecture requires a lot of work, and it will take time before the full impact materializes. 
+
+Last but not least, decomposing a monolith architecture is not only a technical challenge but requires alignment to the product domain model. To get to this alignment, thought leaders in microservice and micro frontend architectures plea for applying Domain Driven Development as the basis.
+
+A software company's primary purpose is to get product innovation in the hands of customers and users as soon as possible. In Showpad, it is now up to the Product \& Engineering leadership to further explore the usage of Micro frontends to answer the architectural challenges that influence scaling the product and the autonomy and productivity of teams.
+
+This project was a fun proof-of-concept to work on. I acquired a lot of new knowledge about different architectures and their advantages and drawbacks, as well as know-how and conventions using Angular, NgRx, and module federation.

@@ -1,0 +1,36 @@
+%%=============================================================================
+%% Methodologie
+%%=============================================================================
+
+\chapter{\IfLanguageName{dutch}{Methodologie}{Methodology}}
+\label{ch:methodologie}
+
+%% TODO: Hoe ben je te werk gegaan? Verdeel je onderzoek in grote fasen, en
+%% licht in elke fase toe welke stappen je gevolgd hebt. Verantwoord waarom je
+%% op deze manier te werk gegaan bent. Je moet kunnen aantonen dat je de best
+%% mogelijke manier toegepast hebt om een antwoord te vinden op de
+%% onderzoeksvraag.
+\section{Exploring Opportunities}
+Showpad is a continuously growing company, as both the employee count enlarges, so do the codebases of the different teams and applications. With scalability in mind, as said in the state-of-the-art chapter, monorepos (which Showpad currently uses) aren’t really optimal to scale up to the point of the currently enormous codebases within the company. 
+\subsection{Developer's Productivity}
+Witnessing first hand the CI/CD pipelines, test and build times. The queueing  and waiting for the frontend monolith CI/CD pipeline to finish and get your changes deployed in production or not - in case code is rolled back - have a substantial impact on the productivity of engineers accross the 18 scrum teams. These are real pain points for developers and can become frustrating over time. Having identified the problem and having heard about the scalability potential of Micro Frontends the goal was set. Trying to transform some part of the main Showpad web application into a Micro Frontend application.
+\subsection{Ambitious but acchievable Goal}
+Although the potential of microfrontends goes wider than developer's productivity, selecting a realistic scope for a proof of concept in the context of this Bachelor Thesis was important. As this was also the first experiment with micro frontends across Showpad, there was a strong interest from within the front-end guild to try and prove that a Micro Frontend architecture is more efficient and more scalable than the current monolithic structure and providing developers a better developer experience through significantly improved build times and less waiting on the pipeline before merging and deploying.
+\section{Knowledge building}
+An important part of the methodology was conducting literature study and research on the current state of the Showpad product architecture, and learning about the architectural concepts that come with micro frontends. Next to reading articles, watching videos and reading books on the different topics as mentioned in \autoref{ch:stand-van-zaken}, I had the opportunity to participate in a video meeting with Luca Mezzalira, the authority and author on Microfrontends.
+\section{Setting the scope of the Proof Of Concept}
+With the goal of this proof-of-concept in mind, the knowledge about Micro Frontends and how to extract and implement them still had to be acquired. There was a small newly created initiative around Micro Frontends by a couple of members of the frontend guild. With the help of them the project got started. 
+\section{Isolating the microfrontend application}
+A part of the Showpad web application was decided on to isolate and transform into the Micro Frontend. The first big struggle was getting the application extracted out of the highly dependant structure that is the frontend monorepo.
+
+After this problem was dealt with, the Micro Frontend application could be run on its own. Started some tests on how efficient the application ran by itself. There were still some challenges to resolve, some dependencies that were still missing or Angular errors that were pretty vague and wasted a lot of time on on finding out what was wrong. With most errors out of the way the host application (the main Showpad web application) got prepared for the remoteEntry point of our Micro Frontend application. 
+
+After facing some more issues with the integration of the remote application into the host application we ran into another problem. Deciding on how we were going to merge and deploy our application without affecting everyone else in the application. So we decided on creating a feature flag in “Central Station” (the PHP based back-end). With this feature flag in place every developer within Showpad could choose to turn this on or off. Of course this feature flag had to get the functionality to either turn on or off the Micro Frontend application. So a routing orchestration was built into the host application. If the feature flag is turned on the Micro Frontend version of our application would be run and the web application is routed to the remote entry. If the feature flag is turned off Micro Frontend application does nothing and the web application gets routed to the same place it has always been routed to.
+\section{Continuous Integration substantially improved}
+The applications both work fine and build times have improved over 400\%. Although my time at Showpad ran out and we had not figured out yet how to deploy this to production and we did not find out how our application had an effect on the CI/CD pipeline. But we continued after the end of my internship. The proof-of-concept is running on the staging environment of Showpad.
+\section{Running the proof-of-concept}
+In this proof-of-concept we are facing some major business architectural difficulties to really show the potential of micro frontends. First off in an ideal micro frontend architecture the entirety of the Showpad developer teams should be taken under the loop, to check if all teams are still having to work on the same business areas. As for this micro frontend proof-of-concept, there weren’t any architectural changes to the whole of the codebase or the teams but rather isolating one particular part of the main application and transforming it into a micro frontend and transforming the main application to a shell application which should host all micro frontends inside.
+
+The entire proof-of-concept project is running on Showpads staging environment hidden behind a feature flag. A feature flag is something used to enable or disable certain features of the application for certain users so that not everyone is affected by these changes to the application.
+
+

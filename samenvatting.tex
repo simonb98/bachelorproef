@@ -1,0 +1,62 @@
+%%=============================================================================
+%% Samenvatting
+%%=============================================================================
+
+% TODO: De "abstract" of samenvatting is een kernachtige (~ 1 blz. voor een
+% thesis) synthese van het document.
+%
+% Deze aspecten moeten zeker aan bod komen:
+% - Context: waarom is dit werk belangrijk?
+% - Nood: waarom moest dit onderzocht worden?
+% - Taak: wat heb je precies gedaan?
+% - Object: wat staat in dit document geschreven?
+% - Resultaat: wat was het resultaat?
+% - Conclusie: wat is/zijn de belangrijkste conclusie(s)?
+% - Perspectief: blijven er nog vragen open die in de toekomst nog kunnen
+%    onderzocht worden? Wat is een mogelijk vervolg voor jouw onderzoek?
+%
+% LET OP! Een samenvatting is GEEN voorwoord!
+
+%%---------- Nederlandse samenvatting -----------------------------------------
+%
+% TODO: Als je je bachelorproef in het Engels schrijft, moet je eerst een
+% Nederlandse samenvatting invoegen. Haal daarvoor onderstaande code uit
+% commentaar.
+% Wie zijn bachelorproef in het Nederlands schrijft, kan dit negeren, de inhoud
+% wordt niet in het document ingevoegd.
+
+\IfLanguageName{english}{
+\selectlanguage{dutch}
+\chapter*{Samenvatting}
+Wanneer software producten groeien in functionaliteit en omvang, en zeker wanneer het aantal ontwikkelaars dat eraan werkt toeneemt, is het van belang dat de architectuur van de software mee evolueert. In de beginfase van een software product is de keuze voor een monolitische architectuur een veel gebruikte praktijk. Maar op schaal, heeft dit architecturaal patroon een vertragend effect op het leveren van toegevoegde waarde richting gebruikers. Het minimaliseren van dit vertragend effect, is een van de redenen waarom Microservices en Micro frontend architecturale patronen winnen aan populariteit in de wereld van web toepassingen.
+
+In deze Bachelor thesis bekijken we de invloed van het micro frontend architecturaal patroon op de productiviteit van frontend ontwikkelaars die momenteel in een monorepo omgeving werken.
+
+Om aan te tonen dat dit concept een antwoord biedt, werd een beperkt stuk functionaliteit geisoleerd in een micro frontend applicatie en werd het effect op de bouwtijden en doorlooptijden gemeten.
+
+Het resultaat van deze proof-of-concept blijkt postief. De bouwtijd van de ge\"{i}soleerde functionaliteit bleek vier keer korter dan bij de basis meting. De doorlooptijd van de aangepaste CI/CD pijplijn werd met 27\% gereduceerd.
+
+De resultaten zien er alvast veelbelovend uit en toont potentieel voor het verhogen van de productiviteit van individuele ontwikkelaars en teams, zowel als een verhoogde autonomie van teams binnen een multi-team ontwikkel organisatie als Showpad.
+
+Maar dit alles komt niet gratis. Het is geweten dat in microservice en micro frontend architecturen, de systeem complexiteit omhoog gaat vanwege het groeiend aantal componenten. Ten tweede, het opbreken van een monolitische architectuur vraagt veel werk en zal dus ook behoorlijk wat tijd vragen opdat de maximale impact zich zou materialiseren. Tot slot, is het opdelen van een monolitische architectuur niet enkel een technische uitdaging, maar vereist vooral ook een afstemming van het product domein model. Om tot deze afstemming te komen pleiten kennisleiders van microservice en microfrontend architectuur voor het toepassen van Domain Driven Development.
+
+Een software bedrijf heeft als hoofddoel product innovatie zo snel mogelijk bij zijn klanten en gebruikers te krijgen. Binnen Showpad is het nu aan het Product \& Engineering management team om verder uit te werken of en hoe het gebruik van micro frontends een antwoord biedt op de architecturale uitdagingen die van invloed zijn op het schalen van het product, de autonomie en productiviteit van teams.
+\selectlanguage{english}
+}{}
+%%---------- Samenvatting -----------------------------------------------------
+% De samenvatting in de hoofdtaal van het document
+
+\chapter*{\IfLanguageName{dutch}{Samenvatting}{Abstract}}
+As software products grow in scope and size, especially when the number of developers working on them grows, the need to scale the architecture along is essential. In the start-up phase of a software product, choosing a monolith architecture is more or less standard practice. But at scale, this architectural pattern tends to slow teams down in delivering value to software users. Minimizing the delay in value delivery is one of the reasons Microservices and Micro frontend architecture patterns gain popularity in the web application space. 
+
+In this bachelor thesis, the influence of the Micro Front-end architectural pattern on the productivity of frontend engineers working in a mono repo environment is evaluated. 
+
+As a proof of concept, a small piece of the product functionality was isolated in a micro frontend application, and the effect on the build time and cycle time was measured.
+
+The results of the proof of concepts show a positive impact. The isolated functionality's build time was four times faster than the baseline measurements. The cycle time of the adapted CI/CD pipeline for the micro frontend application was reduced by 27\%.
+
+These results for sure look promising. It has the potential for the productivity of individual developers and teams as to the autonomy of teams in a multi-team development organization like Showpad. 
+
+But it will not come for free. It is known that in microservice and micro frontend architectures, the system's complexity increases due to the growing number of components. Secondly, decomposing a monolith architecture requires a lot of work, and it will take time before the full impact materializes. Last but not least, decomposing a monolith architecture is not only a technical challenge but requires alignment to the product domain model. To get to this alignment, thought leaders in microservice and micro frontend architectures plea for applying Domain Driven Development as the basis.
+
+A software company's primary purpose is to get product innovation in the hands of customers and users as soon as possible. In Showpad, it is now up to the Product \& Engineering leadership to further explore the usage of Micro frontends to answer the architectural challenges that influence scaling the product and the autonomy and productivity of teams.

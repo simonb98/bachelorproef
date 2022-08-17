@@ -1,0 +1,82 @@
+@Book{Newman2015,
+  author  = {Sam Newman},
+  date    = {2015},
+  title   = {Building Microservices, designing fine-grained systems},
+  edition = {1st},
+  isbn    = {9781491950357},
+  owner   = {Simon Baeyens},
+}
+
+@Book{Newman2020,
+  author  = {Sam Newman},
+  date    = {2020},
+  title   = {Monolith to Microservices, Evolutionary patterns to transform your monolith},
+  edition = {1st},
+  isbn    = {978-1492047841},
+  owner   = {Simon Baeyens},
+}
+
+@Book{Mezzalira2021,
+  author  = {Luca Mezzalira},
+  date    = {2021},
+  title   = {Building Micro-Frontends, scaling teams and projects, empowering developers},
+  edition = {1st},
+  isbn    = {978-1492082996},
+  owner   = {Simon Baeyens},
+}
+
+@Book{Duvall2007,
+  author  = {Paul Duvall},
+  date    = {2007},
+  title   = {Continuous Integration: Improving Software Quality and Reducing Risk},
+  edition = {1st},
+  isbn    = {978-0321336385},
+  owner   = {Simon Baeyens},
+}
+
+@Book{Humble2010,
+  author  = {Jez Humble},
+  date    = {2010},
+  title   = {Continous Delivery, Reliable Software Releases through Build, Test, and Deployment Automation},
+  edition = {1st},
+  isbn    = {978-0321601919},
+  owner   = {Simon Baeyens},
+}
+
+@Book{Farley2021,
+  author  = {David Farley},
+  date    = {2021},
+  title   = {Continuous Delivery Pipelines: How To Build Better Software Faster},
+  edition = {1st},
+  isbn    = {979-8517979551},
+  owner   = {Simon Baeyens},
+}
+
+@Book{Poppendieck2007,
+  author  = {Mary and Tom Poppendieck},
+  date    = {2007},
+  title   = {Implementing Lean Software Development: From Concept to Cash},
+  edition = {1st},
+  isbn    = {978-0321437389},
+  owner   = {Simon Baeyens},
+}
+
+@Book{Kersten2018,
+  author  = {Mik Kersten},
+  date    = {2018},
+  title   = {Project to Product, how to survive and thrive in the age of digital disruption with the flow framework},
+  edition = {1st},
+  isbn    = {978-1942788393},
+  owner   = {Simon Baeyens},
+}
+
+@Book{Vacanti2015,
+  author  = {Daniel S. Vacanti},
+  date    = {2015},
+  title   = {Actionable Agile Metrics for Predictability, and introduction},
+  edition = {1st},
+  isbn    = {978-0986436338},
+  owner   = {Simon Baeyens},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

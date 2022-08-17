@@ -1,0 +1,14 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "voorstel-inhoud.xdv" "voorstel-inhoud.pdf" "voorstel-inhoud" 0
+  "voorstel-inhoud.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "voorstel-inhoud.pdf"
+["xelatex"] 1660763625 "voorstel-inhoud.tex" "voorstel-inhoud.xdv" "voorstel-inhoud" 1660763625
+  "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
+  "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1657967737 5419902 97aa110528ade5d3b6cd27a68cba26a5 ""
+  "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
+  "voorstel-inhoud.aux" 1660763625 32 3985256e7290058c681f74d7a3565a19 ""
+  "voorstel-inhoud.tex" 1660758841 3922 10a8820bd4b5f7036554d972a3556a89 ""
+  (generated)
+  "voorstel-inhoud.log"
+  "voorstel-inhoud.xdv"
